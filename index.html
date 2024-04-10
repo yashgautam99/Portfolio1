@@ -4,25 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
+
   </head>
   <body>
+
+    <!-- navbarrr -->
     <div class="header">
       <div class="navbar">
         <div class="logo">
-          <h3>YAsh</h3>
+          <h3>YASH</h3>
         </div>
         <div class="right">
           <ul>
-            <li>Home</li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="main">
+
+    <!-- homeeeee -->
+
+    <div class="main" id="home">
       <div class="memoji">
         <img src="images/memoji.png" alt="" />
       </div>
@@ -64,10 +71,13 @@
         </p>
       </div>
       <div class="buttons">
-        <button class="touch">Get in Touch</button>
+        <a href="mailto:yash99gautam@gmail.com"> <button class="touch">Get in Touch</button></a>
         <button class="Download-cv">Download CV</button>
       </div>
-      <div class="skills">
+
+      <!-- skillsssss -->
+
+      <div class="skills" id="skills">
         <h1>Skills</h1>
 
         <h2>Development</h2>
@@ -122,13 +132,50 @@
           </div>
         </div>
       </div>
-      <div class="projects">
+
+      <!-- prjectssssssss -->
+
+      <div class="projects" id="projects">
         <h1>Projects</h1>
         <div class="tic-tac">
-            <img src="images/tic.jpg" alt="">
-            <a href="https://yashgautam99.github.io/TicTacToe/" target="_blank">Tic-Tac Toe Game</a>
+           <a href="https://yashgautam99.github.io/TicTacToe/"><img src="images/tic.jpg" alt=""></a>   
+           <p>"Experience the timeless fun of Tic-Tac-Toe in this web-based game crafted with HTML, CSS, and JavaScript. Enjoy intuitive gameplay and sleek design as you challenge friends or test your skills against the computer."</p>       
+            <a href="https://yashgautam99.github.io/TicTacToe/" target="_blank"> <button>Visit Site</button></a>
         </div>
+        <div class="projects">
+            <div class="tic-tac">
+               <a href="https://yashgautam99.github.io/TicTacToe/"><img src="images/tic.jpg" alt=""></a>          
+                <a href="https://yashgautam99.github.io/TicTacToe/" target="_blank"> <button>Visit Site</button></a>
+            </div>
+            <div class="projects">
+                <div class="tic-tac">
+                   <a href="https://yashgautam99.github.io/TicTacToe/"><img src="images/tic.jpg" alt=""></a>          
+                    <a href="https://yashgautam99.github.io/TicTacToe/" target="_blank"> <button>Visit Site</button></a>
+                </div>
       </div>
     </div>
+    <div class="contact-container" id="contact">
+        <div class="contact-heading">Contact</div>
+        <p class="contact-description">
+            📩 Let's Connect!
+            <p>Hey there! 🌟 Whether you're interested in collaboration, have a project idea in mind, or simply want to chat about all things tech, I'm here and ready to connect. Feel free to reach out to me through any of the following channels:</p>
+        <div class="contact-icons">
+            <div class="icon">
+                <a href="mailto:yash99gautam@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="mailto:yash99gautam@gmail.com"><p>Email</p></a>
+            </div>
+            <div class="icon">
+                <a href="https://twitter.com/yashgautam2502"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="https://twitter.com/yashgautam2502"><p>Twitter</p></a>
+            </div>
+            <div class="icon">
+                <a href="https://github.com/yashgautam99"><i class="fa-brands fa-github"></i></a>
+                <a href="https://github.com/yashgautam99"><p>GitHub</p></a>
+            </div>
+            <div class="icon">
+                <a href="https://www.linkedin.com/in/yashgautam99/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/yashgautam99/"><p>LinkedIn</p></a>
+            </div>
+        </div>
   </body>
 </html>

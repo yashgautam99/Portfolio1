@@ -9,6 +9,7 @@
 body {
   background-color: black;
   color: #fff;
+  overflow-x: hidden;
 }
 
 .header {
@@ -291,10 +292,11 @@ body {
     text-decoration: none;
 }
 .contact-container {
-    width: 100vw;
+    width: calc(100vw-80px);
     padding: 40px;
     background-color: #000000;
     border-radius: 8px;
+    overflow-x: hidden;
 }
 .contact-heading {
     font-size: 32px;
@@ -324,4 +326,11 @@ body {
 .icon p{
     margin-top: 5px;
     font-size: 14px;
+}
+iframe{
+    border-radius: 20px;
+    filter: invert(100%);
+    width: 90vw;
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add shadow to the iframe */
 }

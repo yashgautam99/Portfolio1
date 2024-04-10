@@ -225,7 +225,7 @@ body {
     flex-direction: column;
     justify-content: center; /* Center vertically */
     align-items: center; /* Center horizontally */
-    background-color: red;
+    /* background-color: red; */
     width: 50vw;
     margin: auto;
 }
